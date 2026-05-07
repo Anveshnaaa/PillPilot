@@ -1,0 +1,51 @@
+store_name,medicine_name,date,current_stock,daily_demand,expiry_days_left,season,category,demand_trend,lead_time_days,unit_price,reorder_fee,distance_from_distributor_miles
+Store A,Albuterol_100mcg,2024-01-27,311,51,178,winter,Respiratory,increasing,2,26.64,22.70,9
+Store A,Albuterol_100mcg,2024-03-29,233,22,285,summer,Respiratory,stable,2,26.64,22.70,9
+Store A,Amlodipine_5mg,2024-01-04,275,9,199,winter,Cardiovascular,stable,5,29.34,21.55,9
+Store A,Amoxicillin_500mg,2024-01-10,365,15,224,winter,Antibiotic,stable,5,21.19,14.67,9
+Store A,Amoxicillin_500mg,2024-02-26,441,15,248,winter,Antibiotic,stable,5,21.19,14.67,9
+Store A,Aspirin_75mg,2024-02-02,378,21,346,winter,Cardiovascular,increasing,4,30.38,22.91,9
+Store A,Insulin_100units,2024-02-01,155,23,152,winter,Diabetes,stable,2,29.29,23.76,9
+Store A,Sertraline_50mg,2024-01-14,310,21,127,winter,Psychiatric,decreasing,5,40.29,30.23,9
+Store B,Amoxicillin_500mg,2024-02-22,109,45,311,winter,Antibiotic,increasing,5,21.19,14.67,16
+Store B,Cetirizine_10mg,2024-01-24,88,12,170,winter,Allergy,stable,3,14.44,13.74,16
+Store B,Ibuprofen_400mg,2024-02-17,221,34,200,winter,Pain Relief,increasing,3,15.35,14.27,16
+Store B,Losartan_50mg,2024-02-24,342,6,279,winter,Cardiovascular,decreasing,5,28.98,21.88,16
+Store B,Nitroglycerin_0.4mg,2024-01-30,158,33,142,winter,Emergency,decreasing,1,50.84,32.86,16
+Store B,Nitroglycerin_0.4mg,2024-02-15,172,31,120,winter,Emergency,decreasing,1,50.84,32.86,16
+Store B,Omeprazole_20mg,2024-03-14,251,9,171,summer,Gastro,decreasing,4,12.90,12.75,16
+Store C,Amlodipine_5mg,2024-02-27,466,28,216,winter,Cardiovascular,stable,5,29.34,21.55,92
+Store C,Amlodipine_5mg,2024-03-06,258,27,208,summer,Cardiovascular,stable,5,29.34,21.55,92
+Store C,Amoxicillin_500mg,2024-02-29,374,20,348,winter,Antibiotic,stable,5,21.19,14.67,92
+Store C,Aspirin_75mg,2024-01-24,220,8,193,winter,Cardiovascular,stable,4,30.38,22.91,92
+Store C,Atorvastatin_20mg,2024-02-05,179,21,318,winter,Cardiovascular,stable,5,22.30,24.10,92
+Store C,Ibuprofen_400mg,2024-01-13,323,6,153,winter,Pain Relief,decreasing,3,15.35,14.27,92
+Store C,Ibuprofen_400mg,2024-01-18,289,8,148,winter,Pain Relief,stable,3,15.35,14.27,92
+Store C,Insulin_100units,2024-01-04,376,42,198,winter,Diabetes,stable,2,29.29,23.76,92
+Store C,Insulin_100units,2024-01-06,301,35,196,winter,Diabetes,decreasing,2,29.29,23.76,92
+Store C,Insulin_100units,2024-02-24,269,40,344,winter,Diabetes,stable,2,29.29,23.76,92
+Store C,Levothyroxine_50mcg,2024-03-19,492,22,194,summer,Thyroid,stable,5,11.45,17.23,92
+Store C,Metformin_500mg,2024-01-14,415,27,146,winter,Diabetes,stable,5,33.04,23.75,92
+Store C,Metformin_500mg,2024-02-19,147,21,208,winter,Diabetes,decreasing,5,33.04,23.75,92
+Store C,Omeprazole_20mg,2024-02-02,193,22,207,winter,Gastro,decreasing,4,12.90,12.75,92
+Store C,Pantoprazole_40mg,2024-02-14,183,23,142,winter,Gastro,decreasing,4,11.65,11.39,92
+Store C,Ranitidine_150mg,2024-01-14,214,14,169,winter,Gastro,stable,4,13.45,14.37,92
+Store C,Ranitidine_150mg,2024-01-30,378,11,321,winter,Gastro,decreasing,4,13.45,14.37,92
+Store D,Albuterol_100mcg,2024-01-05,255,54,352,winter,Respiratory,increasing,2,26.64,22.70,156
+Store D,Cetirizine_10mg,2024-02-04,230,23,277,winter,Allergy,stable,3,14.44,13.74,156
+Store D,Gabapentin_300mg,2024-02-09,117,39,213,winter,Neurological,stable,6,29.27,24.40,156
+Store D,Gabapentin_300mg,2024-02-21,257,37,211,winter,Neurological,stable,6,29.27,24.40,156
+Store D,Ibuprofen_400mg,2024-03-13,128,23,183,summer,Pain Relief,decreasing,3,15.35,14.27,156
+Store D,Levothyroxine_50mcg,2024-01-13,110,21,274,winter,Thyroid,decreasing,5,11.45,17.23,156
+Store D,Metformin_500mg,2024-01-09,270,9,350,winter,Diabetes,decreasing,5,33.04,23.75,156
+Store D,Pantoprazole_40mg,2024-01-01,174,7,248,winter,Gastro,decreasing,4,11.65,11.39,156
+Store D,Pantoprazole_40mg,2024-02-22,150,9,218,winter,Gastro,increasing,4,11.65,11.39,156
+Store D,Paracetamol_500mg,2024-01-18,269,32,250,winter,Pain Relief,stable,3,12.97,13.62,156
+Store D,Prednisone_10mg,2024-01-08,265,32,153,winter,Immunology,decreasing,5,35.67,26.70,156
+Store D,Prednisone_10mg,2024-03-03,131,43,315,summer,Immunology,increasing,5,35.67,26.70,156
+Store D,Prednisone_10mg,2024-03-21,445,35,313,summer,Immunology,decreasing,5,35.67,26.70,156
+Store E,Amoxicillin_500mg,2024-03-18,283,17,123,summer,Antibiotic,increasing,5,21.19,14.67,109
+Store E,Amoxicillin_500mg,2024-03-24,197,16,117,summer,Antibiotic,stable,5,21.19,14.67,109
+Store E,Metformin_500mg,2024-01-24,83,16,315,winter,Diabetes,decreasing,5,33.04,23.75,109
+Store E,Pantoprazole_40mg,2024-02-24,138,24,174,winter,Gastro,stable,4,11.65,11.39,109
+Store E,Ranitidine_150mg,2024-01-02,37,19,276,winter,Gastro,stable,4,13.45,14.37,109

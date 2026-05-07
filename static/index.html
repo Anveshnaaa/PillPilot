@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pill Pilot</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section id="landing" class="landing">
+        <h1 class="brand">Pill Pilot</h1>
+        <div class="role-grid">
+          <button id="goDistributor" class="role-card">
+            <span class="role-title">Distributor</span>
+            <span class="role-sub">All stores, forecasts, and transfer action queue</span>
+          </button>
+          <button id="goOwner" class="role-card">
+            <span class="role-title">Store Owner</span>
+            <span class="role-sub">Store-level stock risk, forecast, and recommendations</span>
+          </button>
+        </div>
+      </section>
+
+      <section id="dashboard" class="hidden">
+        <div class="topbar">
+          <button id="backBtn" class="btn-secondary">Back</button>
+          <h2 id="roleHeading"></h2>
+        </div>
+
+        <div class="panel">
+          <input id="csvFile" type="file" accept=".csv" />
+          <button id="runAnalysis" class="btn-primary">Run Analysis</button>
+          <p id="errorMsg" class="error hidden"></p>
+        </div>
+
+        <div id="kpis" class="kpi-grid"></div>
+
+        <section id="distributorView" class="hidden">
+          <h3>Distributor Dashboard</h3>
+          <div class="filters">
+            <label>Stores</label>
+            <select id="distStoreFilter" multiple></select>
+            <label>Medicine</label>
+            <select id="distMedicineSelect"></select>
+          </div>
+          <h4>Latest Inventory</h4>
+          <div id="distInventory"></div>
+          <h4>Forecast</h4>
+          <div id="distForecast"></div>
+          <h4>Action Queue</h4>
+          <div id="distActionQueue"></div>
+          <h4>Safety and Recall</h4>
+          <div class="chat-box">
+            <button id="distInsightsBtn" class="btn-primary">Generate Distributor Findings</button>
+          </div>
+          <div id="distInsights"></div>
+        </section>
+
+        <section id="ownerView" class="hidden">
+          <h3>Store Owner Dashboard</h3>
+          <div class="filters">
+            <label>Store</label>
+            <select id="ownerStoreSelect"></select>
+            <label>Medicine</label>
+            <select id="ownerMedicineSelect"></select>
+          </div>
+          <h4>Current Inventory</h4>
+          <div id="ownerInventory"></div>
+          <h4>Items Running Low</h4>
+          <div id="ownerLow"></div>
+          <h4>3-Day Forecast</h4>
+          <div id="ownerForecast"></div>
+
+          <h4>Safety and Recall</h4>
+          <div class="chat-box">
+            <button id="ownerInsightsBtn" class="btn-primary">Generate Store Findings</button>
+          </div>
+          <div id="ownerInsights"></div>
+          <h4>Pharmacy Assistant</h4>
+          <div id="ownerAssistantWidget"></div>
+        </section>
+      </section>
+    </main>
+    <script type="module" src="/static/app.js"></script>
+  </body>
+  </html>

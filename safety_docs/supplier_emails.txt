@@ -1,0 +1,43 @@
+From: quality.alerts@supplier-pharma.example
+To: pharmacy.ops@pillpilot.example
+Date: 2026-03-15
+Subject: URGENT - Batch recall confirmation PCM-042
+
+Please confirm immediate quarantine of batch PCM-042 for Paracetamol_500mg.
+This batch is under active recall and must not be dispensed.
+Please submit store-level removed quantities by 18:00 local time.
+Reference ID for response: SUP-QA-PCM042-20260315.
+
+---
+
+From: distribution.control@supplier-pharma.example
+To: pharmacy.ops@pillpilot.example
+Date: 2026-03-21
+Subject: Storage advisory for Immunology products
+
+Immunology-category products should remain between 2C and 8C during transfer where applicable.
+Any cold-chain break must be treated as Hold & Verify.
+For transfer exceeding 45 minutes, include insulated container and logger.
+Escalation mailbox: coldchain.alerts@supplier-pharma.example
+
+---
+
+From: field.support@supplier-pharma.example
+To: store.managers@pillpilot.example
+Date: 2026-03-24
+Subject: Clarification - Damaged packaging handling standard
+
+Do not dispense products with torn blister foil, loose cap, or unreadable labels.
+Move suspected units to quarantine and raise incident ticket with photo proof.
+Manager acknowledgement required before ticket closure.
+
+---
+
+From: qa.notifications@supplier-pharma.example
+To: pharmacy.ops@pillpilot.example
+Date: 2026-04-01
+Subject: Batch NTG-210 hold-and-inspect protocol
+
+Nitroglycerin batch NTG-210 remains under hold-and-inspect status.
+Dispensing allowed only after seal verification and pharmacist sign-off.
+Any failed pack must be isolated and logged under notice NTG-2026-04.

@@ -1,0 +1,7 @@
+
+venv/
+node_modules/
+__pycache__/
+.env
+*.pkl
+.DS_Store
